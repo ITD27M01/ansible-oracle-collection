@@ -30,4 +30,4 @@ jobs:
           ansible-galaxy collection build
       - name: Publish Collection version
         run: |
-          ansible-galaxy collection publish ./itd27m01-oracle-database-*.tar.gz --token=${{ secrets.ANSIBLE_GALAXY_TOKEN }}
+          ansible-galaxy collection publish ./itd27m01-oracle-*.tar.gz --token=${{ secrets.ANSIBLE_GALAXY_TOKEN }}
