@@ -5,5 +5,5 @@ to a collection.
 
 ## Installing collection from Ansible Galaxy
 ```shell
-$ ansible-galaxy collection install itd27m01.oracle-database
+$ ansible-galaxy collection install itd27m01.oracle
 ```
