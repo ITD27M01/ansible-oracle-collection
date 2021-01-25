@@ -1,4 +1,5 @@
-#!/usr/bin/python
+# Copyright: (c) 2021, Igor Tiunov <igortiunov@gmail.com>
+# MIT (see LICENSE or https://spdx.org/licenses/MIT.html)
 # -*- coding: utf-8 -*-
 
 DOCUMENTATION = '''
