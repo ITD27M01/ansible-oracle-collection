@@ -482,9 +482,8 @@ def create_db(module, msg, oracle_home, sys_password, system_password, dbsnmp_pa
         if db_unique_name != None:
             initparam += 'db_name=%s,db_unique_name=%s,' % (db_name, db_unique_name)
         if initparams != None:
-            # paramslist = ",".join(initparams)
-            # initparam += ' %s' % (paramslist)
-            initparam += ' %s' % (initparams)
+            paramslist = ",".join(initparams)
+            initparam += ' %s' % (paramslist)
 
     if initparam != ' -initParams ' or paramslist != "":
         command += initparam
