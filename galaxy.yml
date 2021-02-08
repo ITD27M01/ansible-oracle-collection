@@ -1,7 +1,7 @@
 namespace: itd27m01
 name: oracle
 description: Ansible collection for Oracle RDBMS
-version: 0.1.4
+version: 0.1.5
 readme: README.md
 authors:
   - ITD27M01 (https://github.com/itd27m01)
